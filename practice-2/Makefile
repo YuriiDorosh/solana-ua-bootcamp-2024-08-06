@@ -1,4 +1,4 @@
-FILE=generate-keypairs.ts
+FILE=load-keypair.ts
 
 .PHONY npm-init npm-install npm-start:
 
@@ -10,3 +10,4 @@ npm-install:
 
 npm-start:
 	npx esrun ${FILE}
+
